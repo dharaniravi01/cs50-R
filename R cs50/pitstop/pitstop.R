@@ -1,0 +1,10 @@
+country <- read.csv(readline(""))
+
+team <- nrow(country)
+short <- min(as.double(country$time))
+long <- max(as.double(country$time))
+total <- sum(as.double(country$time))
+print(team)
+print(short)
+print(long)
+print(total)
